@@ -1,0 +1,4 @@
+intervaltree
+pandas
+pypacker
+netifaces  # to drop pypacker's "WARNING (<module>): Couldn't load netifaces, some utils won't work"
