@@ -5,6 +5,7 @@ Untitled*.ipynb
 
 __pycache__
 
+# use "git add pcaps_ipv6/* -f"
 *.pcap
 
 pypacker
