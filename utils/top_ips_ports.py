@@ -41,9 +41,9 @@ def scan(fname):
             top_count[eth[ip.IP].dst_s] += stats
             sport, dport = eth_ports(eth)
             if sport and dport:
-                for ip in [eth[ip.IP].src_s, eth[ip.IP].dst_s]:
+                for ip_val in [eth[ip.IP].src_s, eth[ip.IP].dst_s]:
                     for port in [sport, dport]:
-                        top_ports[ip][port] += stats
+                        top_ports[ip_val][port] += stats
         c +=1
         if c % 1000000 == 0:
             print(c/1000000, 'M')

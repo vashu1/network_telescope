@@ -5,8 +5,6 @@ Untitled*.ipynb
 
 __pycache__
 
-icmp.pcap
-other.pcap
-ipv6.pcap
+*.pcap
 
 pypacker
