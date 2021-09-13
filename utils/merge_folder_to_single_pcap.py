@@ -6,7 +6,6 @@ from pcap import get_pcaps_fnames
 
 from pypacker import ppcap
 from pypacker.layer12 import ethernet
-from pypacker.layer3 import ip
 
 
 if len(sys.argv) != 2:
@@ -21,9 +20,7 @@ for fname in get_pcaps_fnames(pcap_dir):
     preader = ppcap.Reader(filename=fname)
     for ts, buf in preader:
         eth = ethernet.Ethernet(buf)
-        if eth[ethernet.Ethernet, ip.IP] is not None:
-            #if eth[ip.IP].src_s == honeypot_ip:
-            #    continue  # skip packets emitted by honeypot
+        if eth[ethernet.Ethernet] is not None:
             pwriter.write(eth.bin(), ts=ts)
     preader.close()
 

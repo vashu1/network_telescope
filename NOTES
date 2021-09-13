@@ -1,0 +1,56 @@
+
+
+capture TCP first https://github.com/strobostro/pythoney
+
+
+GRE backscatter?   page 16 https://www.datacom.cz/userfiles/miraihandbookebook_final.pdf
+
+iranian ?
+https://www.forbes.com/sites/daveywinder/2020/02/09/powerful-iran-cyber-attack-takes-down-25-of-national-internet/?sh=57fd90a020dc
+Iranian telecommunications network disruption on the morning of February 8   2020
+
+NetBlocks internet observatory, which maps internet freedom in real-time, confirmed that there was extensive Iranian telecommunications network disruption on the morning of February 8
+
+
+quic?
+https://github.com/packetloop/zmap/blob/4f5059187fa77d8601a693fde9b4ca3e14e1c82a/src/probe_modules/module_quic_chlo.c
+https://github.com/packetloop/zmap/pull/39/files
+
+
+
+
+alternatives   greynoise
+
+
+
+GreyNoise
+https://github.com/GreyNoise-Intelligence/api.greynoise.io
+https://www.greynoise.io/
+
+network caida    UCSDNetwork Telescope [25], which is known as a passive darknet configured by CAIDA
+https://pragmaticintegrator.wordpress.com/2012/12/13/assign-a-fixed-ip-to-aws-ec2-instance/
++ old published dataset in github
+?sinkhole
+https://www.caida.org/
+
+Black Hat Directory Honeypot
+Cybersecurity Search Engine  https://spyse.com/
+DEAD? Shadowserver scans the entire IPv4 Internet 42 times every day. Then we package the data we collect in our reports, which are aggregated per
+NETRAY https://quic.netray.io/
+Rapid7 Project Sonar https://opendata.rapid7.com/sonar.national_exposure/
+? SANS Internet Storm Center   - scan graph https://www.speedguide.net/port.php?port=17185
+
+    A number of sources, including DShield, have noticed an uptick on port 2323 TCP beginning around 3 weeks ago https://isc.sans.edu/port.html?port=2323
+
+http://www.internettl.org/  IPs: 104.152.52.21-104.152.52.39
+
+shodan - google scanner lists
+scanned ports stats https://isc.sans.edu/port.html?port=12850
+
+https://scans.io/
+
+
+
+
+=======
+
