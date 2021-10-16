@@ -15,7 +15,7 @@ from collections import OrderedDict
 from datetime import datetime
 import sys
 
-MY_IP = '167.99.227.94'
+MY_IP = '159.223.24.49' #'167.99.227.94'
 
 #MY_IP = '172.31.21.94'
 #FILES = ['../../network_telescope/network_telescope.pcap'] + [f'../../network_telescope/network_telescope{i}.pcap' for i in range(2, 15+1)]

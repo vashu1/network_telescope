@@ -14,10 +14,9 @@ from collections import OrderedDict
 from datetime import datetime
 import sys
 
-MY_IP = '167.99.227.94'
+MY_IP = '159.223.24.49'
 
-MY_IP = '167.99.227.94'
-FILES = [f'../../network_telescope_new/network_telescope_V6_{i}.pcap' for i in range(0, 8+1)] + ['network_telescope_9.pcap']
+#FILES = [f'../../network_telescope_new/network_telescope_V6_{i}.pcap' for i in range(0, 8+1)] + ['network_telescope_9.pcap']
 
 pcap_writers = OrderedDict()
 prev_date = None
@@ -66,7 +65,7 @@ def scan(fname):
 
 
 print(f'{MY_IP=}')
-pcap_files = FILES #sys.argv[1:]  # FILES
+pcap_files = sys.argv[1:]  # FILES
 for fname in pcap_files:
     scan(fname)
 
